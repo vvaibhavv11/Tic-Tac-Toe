@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "ttt",
-    "version": "0.0.0"
+    "productName": "Tic Tac Toe",
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -29,12 +29,17 @@
     },
     "bundle": {
       "active": true,
-      "targets": ["deb", "nsis", "msi", "app", "dmg", "updater"],
-      "identifier": "com.Ttt.build",
+      "targets": [
+        "deb",
+        "nsis",
+        "msi",
+        "app",
+        "dmg",
+        "updater"
+      ],
+      "identifier": "com.TicTacToe.build",
       "icon": [
-        "icons/32x32.png",
-        "icons/128x128.png",
-        "icons/128x128@2x.png",
+          "icons/icon.png",
         "icons/icon.icns",
         "icons/icon.ico"
       ]
